@@ -1,3 +1,3 @@
 # Kakao Clone 2023 Update
 
-이제 시작해 보자! 아자아자 화이팅!
+Day-1:kakao 로그인창 만들기.
