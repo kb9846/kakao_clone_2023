@@ -1,0 +1,47 @@
+.Index-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Index-form > :where(input, a) {
+  margin: 0 20px;
+}
+
+.Index-form > input:not([type="submit"]) {
+  padding: 20px 0;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: border-color 0.2s linear;
+}
+
+.Index-form > input::placeholder {
+  font-size: large;
+  font-weight: 150;
+  color: rgba(0, 0, 0, 0.3);
+  transition: color 0.2s linear;
+}
+
+.Index-form > input:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+
+.Index-form > input:not([type="submit"]):focus {
+  border-color: var(--yellow);
+}
+
+.Index-form__log-in {
+  padding: 15px 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Index-form__find-link {
+  margin-top: 23px;
+  text-decoration: none;
+  color: inherit;
+  align-self: center;
+}
