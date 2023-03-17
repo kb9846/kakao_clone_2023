@@ -2,7 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px 5px 0 5px;
   background-color: rgba(0, 0, 0, 0.02);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .state-bar__column {

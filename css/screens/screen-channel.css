@@ -1,0 +1,17 @@
+.screen-channel {
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  margin: var(--default-sort);
+  position: relative;
+  top: 115px;
+}
+.screen-channel__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+.screen-channel__header > :where(span, i) {
+  font-size: 14px;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.4);
+}

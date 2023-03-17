@@ -1,0 +1,33 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 18px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.screen-header__icons > span:not(:last-child) {
+  margin-right: 24px;
+}
+.screen-header__text {
+  font-size: 25px;
+  font-weight: 700;
+}
+.screen-header__icons > span:last-child > i:hover {
+  animation-name: scroll-gear;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll-gear {
+  from {
+    transform: rotateZ(0);
+  }
+
+  to {
+    transform: rotateZ(1080deg);
+  }
+}

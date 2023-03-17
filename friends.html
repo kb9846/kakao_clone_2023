@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Welcome to kakao clone</title>
+  </head>
+  <body>
+    <!--state-bar-->
+    <div class="state-bar">
+      <div class="state-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="state-bar__column">
+        <span>13:16</span>
+      </div>
+      <div class="state-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-xl"></i>
+        <i class="fa-solid fa-bolt fa-xs"></i>
+      </div>
+    </div>
+    <!--screen-header-->
+    <header class="screen-header">
+      <span class="screen-header__text">Friends</span>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+    <!--friends-display-->
+    <a class="friends-display" href="#">
+      <span><i class="fa-solid fa-circle-exclamation"></i></span>
+      <span>Friends' Names Display</span>
+      <span><i class="fa-solid fa-chevron-right fa-xs"></i></span>
+    </a>
+    <!--user-conponent-->
+    <div class="user-component" style="position: relative; top: 100px">
+      <div class="user-component__column">
+        <img
+          class="user-component__avartar user-component__avartar--fa-lg"
+          src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fbusiness-management-90%2F24%2F09Business_Management-512.png&type=a340"
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__main-title--fa-lg">User-name</h4>
+          <!--<h6 class="user-component__subtitle">subtitle</h6>-->
+        </div>
+      </div>
+      <div class="user-component__column"></div>
+    </div>
+    <!--screen-channel-->
+    <div class="screen-channel">
+      <div class="screen-channel__header">
+        <span>channel</span>
+        <i class="fa-solid fa-chevron-up fa-xs"></i>
+      </div>
+      <div class="user-component" style="padding: 0">
+        <div class="user-component__column">
+          <img
+            class="user-component__avartar user-component__avartar--fa-sm"
+            src="https://search.pstatic.net/sunny/?src=https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fbusiness-management-90%2F24%2F09Business_Management-512.png&type=a340"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__main-title">Channel</h4>
+            <!--<h6 class="user-component__subtitle">subtitle</h6>-->
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>2</span>
+          <i class="fa-solid fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+    </div>
+    <!--nav-bar-->
+    <nav class="nav-bar">
+      <ul class="nav-bar__list">
+        <li class="nav-bar__btn">
+          <a class="nav-bar__link" href="friends.html"
+            ><i class="fa-solid fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav-bar__btn">
+          <a class="nav-bar__link" href="chatting.html">
+            <span class="nav-bar__notification">1</span>
+            <i class="fa-regular fa-comment fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav-bar__btn">
+          <a class="nav-bar__link" href="search.html"
+            ><i class="fa-solid fa-magnifying-glass fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav-bar__btn">
+          <a class="nav-bar__link" href="more.html">
+            <div class="nav-bar__small-notification"></div>
+            <i class="fa-solid fa-ellipsis fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/3a4cbadfca.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

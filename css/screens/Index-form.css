@@ -33,7 +33,7 @@
 .Index-form__log-in {
   padding: 15px 0;
   border: none;
-  background-color: rgba(0, 0, 0, 0.04);
+  background-color: var(--yellow);
   border-radius: 5px;
   font-size: 16px;
   font-weight: 500;

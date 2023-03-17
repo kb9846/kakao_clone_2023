@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500&display=swap");
 @import "reset.css";
-@import "state-bar.css";
-@import "Index-header.css";
-@import "Index-form.css";
 @import "values.css";
-
+/* components */
+@import "components/state-bar.css";
+@import "components/navigation-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+/* screen */
+@import "screens/Index-header.css";
+@import "screens/Index-form.css";
+@import "screens/friends-display.css";
+@import "screens/screen-channel.css";
 body {
+  height: 100vh;
   font-family: "Open Sans", sans-serif;
 }
