@@ -1,55 +1,41 @@
-.nav-bar {
-  background-color: rgba(0, 0, 0, 0.03);
-  border-top: 2px solid rgba(0, 0, 0, 0.1);
+.navigation-bar {
   position: fixed;
   bottom: 0;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.nav-bar__list {
+  width: 100vw;
+  height: 60px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 20px 50px;
+  background-color: rgba(0, 0, 0, 0.05);
 }
-.nav-bar__link {
-  color: var(--black);
+.navigation-bar__link {
   position: relative;
-}
-.nav-bar__notification {
   display: block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
+}
+.navigation-bar__link i {
+  color: var(--black);
+}
+.navigation-bar__link:last-child span {
+  display: block;
+  width: 5px;
+  height: 5px;
   background-color: tomato;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: smaller;
+  border-radius: 50%;
   position: absolute;
-  right: -7px;
-  top: -5px;
-  animation-name: scroll-effect;
-  animation-duration: 5s;
-  animation-timing-function: ease-out;
+  top: -8px;
+  right: -5px;
+}
+.navigation-bar__link > span.red-btn {
+  animation-name: rotate-red-btn;
+  animation-duration: 6s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-.nav-bar__small-notification {
-  width: 4px;
-  height: 4px;
-  background-color: tomato;
-  border-radius: 50%;
-  position: absolute;
-  right: -5px;
-  top: 0;
-}
-@keyframes scroll-effect {
-  0% {
+@keyframes rotate-red-btn {
+  from {
     transform: rotateY(0);
   }
-  100% {
+  to {
     transform: rotateY(1080deg);
   }
 }

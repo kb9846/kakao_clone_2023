@@ -1,5 +1,5 @@
 :root {
   --yellow: rgb(250, 225, 0);
   --black: #2f363e;
-  --default-sort: 0 20px;
+  --soft-gray: rgba(0, 0, 0, 0.4);
 }

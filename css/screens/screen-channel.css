@@ -1,17 +1,13 @@
 .screen-channel {
-  border-top: 1px solid rgba(0, 0, 0, 0.3);
-  margin: var(--default-sort);
-  position: relative;
-  top: 115px;
-}
-.screen-channel__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
+  height: 38px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-.screen-channel__header > :where(span, i) {
+.screen-channel__column {
+  color: var(--soft-gray);
   font-size: 14px;
-  font-weight: 550;
-  color: rgba(0, 0, 0, 0.4);
 }

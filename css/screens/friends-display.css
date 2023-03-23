@@ -1,15 +1,15 @@
 .friends-display {
   display: flex;
   justify-content: center;
-  position: relative;
-  top: 87.6px;
+  margin-bottom: 15px;
 }
-.friends-display > span:nth-of-type(2) {
-  margin: 0 5px;
+.friends-display__link > span {
+  margin-right: 10px;
+  margin-left: 5px;
+  color: var(--black);
   font-size: 14px;
-  font-weight: 550;
+  font-weight: 600;
 }
-.friends-display > span:not(:nth-child(2)) {
-  color: rgba(0, 0, 0, 0.15);
-  font-weight: 550;
+.friends-display__link > i {
+  color: var(--soft-gray);
 }

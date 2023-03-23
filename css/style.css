@@ -2,10 +2,12 @@
 @import "reset.css";
 @import "values.css";
 /* components */
+@import "components/main-article.css";
 @import "components/state-bar.css";
 @import "components/navigation-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/red-btn.css";
 /* screen */
 @import "screens/Index-header.css";
 @import "screens/Index-form.css";
