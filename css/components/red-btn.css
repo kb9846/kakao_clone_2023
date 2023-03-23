@@ -9,7 +9,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.red-dot {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
   position: absolute;
-  top: -10px;
-  right: -10px;
+  top: -5px;
+  right: -5px;
 }

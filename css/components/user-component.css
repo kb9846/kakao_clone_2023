@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 20px;
 }
 .user-component__column {
   display: flex;
@@ -19,7 +20,7 @@
 }
 .user-component__sub-text > span {
   font-size: 14px;
-  color: rgba(0, 0, 0, 0.1);
+  color: var(--soft-gray);
 }
 .user-component__img {
   width: 60px;
@@ -34,4 +35,15 @@
 .img-small {
   width: 50px;
   height: 50px;
+}
+.user-component__special-situation {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__special-situation > span:first-child {
+  font-size: 12px;
+  color: var(--soft-gray);
+  display: block;
+  margin-bottom: 5px;
 }

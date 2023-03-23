@@ -13,6 +13,7 @@
 @import "screens/Index-form.css";
 @import "screens/friends-display.css";
 @import "screens/screen-channel.css";
+@import "screens/find.css";
 body {
   height: 100vh;
   font-family: "Open Sans", sans-serif;

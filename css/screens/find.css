@@ -1,0 +1,118 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--main-border);
+  padding: 0 10px 20px 10px;
+  margin-top: 10px;
+}
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.find-icons__icon > i {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.recommended-friends {
+  border-bottom: var(--main-border);
+}
+.recommended-friends > h6 {
+  margin: 20px 0;
+  font-size: 14px;
+  opacity: 0.5;
+}
+.recommended-friends > span {
+  display: block;
+  padding: 70px 60px 90px 60px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-chat__header-column {
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 550;
+  opacity: 0.5;
+}
+.open-chat__header-column:last-child {
+  color: var(--soft-gray);
+}
+/*.open-chat__room.css*/
+.open-chat__room {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: var(--main-border);
+}
+.open-chat__room-column > :where(h3, div) {
+  margin-bottom: 5px;
+}
+.open-chat__room-column:last-of-type {
+  position: relative;
+}
+.open-chat__room-column:last-child > img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10%;
+}
+/*.open-chat__room-title.css*/
+.open-chat__room-title {
+  font-weight: 550;
+}
+/*open-chat__hash-tags.css*/
+.open-chat__hash-tags {
+  font-weight: 550;
+  color: var(--soft-gray);
+}
+/*.open-chat__information.css*/
+.open-chat__information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open-chat__information > :where(img, span, div) {
+  margin-right: 5px;
+  font-size: 14px;
+  color: var(--soft-gray);
+}
+.open-chat__information > img {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.open-chat__information > div {
+  width: 1px;
+  height: 14px;
+  background-color: var(--soft-gray);
+}
+.open-chat__information > span:last-child {
+  color: #ff8ed3;
+}
+/*.open-chat__heart-count.css*/
+.open-chat__heart-count {
+  background-color: var(--black);
+  opacity: 0.8;
+  width: 40px;
+  height: 14px;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  bottom: 5px;
+  right: 7px;
+}
+.open-chat__heart-count > :where(i, span) {
+  color: white;
+  font-size: 12px;
+}

@@ -15,5 +15,5 @@ header.Index-header {
 .Index-header__text {
   width: 70%;
   margin: 2 70px;
-  color: rgba(0, 0, 0, 0.5);
+  color: var(--soft-gray);
 }

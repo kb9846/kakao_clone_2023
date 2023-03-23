@@ -3,9 +3,8 @@
   justify-content: space-between;
   align-items: center;
   height: 38px;
-  margin-top: 20px;
   margin-bottom: 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
 .screen-channel__column {
   color: var(--soft-gray);

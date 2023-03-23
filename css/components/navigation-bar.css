@@ -6,7 +6,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--background-color);
+  border-top: var(--main-border);
 }
 .navigation-bar__link {
   position: relative;
@@ -30,6 +31,9 @@
   animation-duration: 6s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
 @keyframes rotate-red-btn {
   from {
