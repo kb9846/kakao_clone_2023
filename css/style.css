@@ -20,7 +20,7 @@
 @import "screens/suggestions.css";
 @import "screens/list.css";
 @import "screens/splash-screen.css";
-@import "screens/CHAT.css";
+@import "screens/chat.css";
 
 body {
   height: 100%;
