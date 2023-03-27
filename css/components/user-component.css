@@ -13,14 +13,28 @@
   margin-left: 5px;
   color: var(--soft-gray);
 }
+.user-component__main-text {
+  margin-bottom: 5px;
+}
+.user-component__sub-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .user-component__main-text > span {
   font-size: 18px;
   font-weight: 600;
   color: var(--black);
+  margin-right: 5px;
 }
 .user-component__sub-text > span {
   font-size: 14px;
   color: var(--soft-gray);
+  margin-right: 5px;
+}
+.user-component__sub-text > i {
+  color: tomato;
+  font-size: 14px;
 }
 .user-component__img {
   width: 60px;

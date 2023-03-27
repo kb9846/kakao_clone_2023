@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Welcome to kakao clone</title>
   </head>
-  <body>
+  <body id="chat-background">
     <!--state-bar-->
     <div class="state-bar">
       <div class="state-bar__column">
@@ -22,67 +22,55 @@
         <i class="fa-solid fa-battery-full fa-xl"></i>
       </div>
     </div>
-    <!--main-article-->
-    <main class="main-article">
-      <!--screen-header-->
-      <div class="screen-header">
-        <div class="screen-header__title">
-          <span>Chats</span>
-        </div>
-        <div class="screen-header__icons">
-          <span
-            ><i class="fa-sharp fa-solid fa-magnifying-glass fa-lg"></i
-          ></span>
-          <span><i class="fa-sharp fa-solid fa-comments fa-lg"></i></span>
-          <span><i class="fa-solid fa-headphones fa-lg"></i></span>
-          <span><i class="fa-solid fa-gear fa-lg"></i></span>
-        </div>
+    <!--space-header-->
+    <header class="space-header">
+      <div class="space-header__column">
+        <a class="space-header__back" href="javascript:history.back();"
+          ><i class="fa-solid fa-chevron-left fa-xl"></i
+        ></a>
       </div>
-      <!--user-component-->
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__img"
-            src="https://t1.daumcdn.net/crms/symbol_img/symbol_%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%86%A1.png"
-          />
-          <div class="user-component__text">
-            <div class="user-component__main-text">
-              <span>KakaoTalk</span>
-            </div>
-            <div class="user-component__sub-text">
-              <span>please check My Kakao Accont Info</span>
-            </div>
+      <div class="space-header__column">
+        <span>유저1</span>
+      </div>
+      <div class="space-header__column">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </div>
+    </header>
+    <!--main-article-->
+    <main class="main-chat">
+      <span class="timestamp">2023년 3월 27일 월요일</span>
+      <div class="message">
+        <div class="message__img">
+          <img src="https://cdn-icons-png.flaticon.com/512/2143/2143305.png" />
+        </div>
+        <div class="message__info">
+          <div class="message__user-name">
+            <span>유저1</span>
+          </div>
+          <div class="message__text">
+            <span>Hi!</span>
+            <span>17:14</span>
           </div>
         </div>
-        <div class="user-component__column">
-          <div class="user-component__special-situation">
-            <span>21:22</span>
-            <span class="red-btn">1</span>
+      </div>
+      <div class="message message--own">
+        <div class="message__info">
+          <div class="message__text message__text--own">
+            <span>What's up?</span>
+            <span>17:15</span>
           </div>
         </div>
       </div>
     </main>
-    <!--nav-bar-->
-    <div class="navigation-bar">
-      <a class="navigation-bar__link" href="friends.html">
-        <i class="fa-regular fa-user fa-xl"></i>
-      </a>
-      <a class="navigation-bar__link" href="chat.html">
-        <i class="fa-solid fa-comment fa-xl"></i>
-        <span class="red-btn">1</span>
-      </a>
-      <a class="navigation-bar__link" href="find.html">
-        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
-      </a>
-      <a class="navigation-bar__link" href="more.html">
-        <div class="navigation-bar__dots">
-          <i class="fa-regular fa-circle fa-2xs"></i>
-          <i class="fa-regular fa-circle fa-2xs"></i>
-          <i class="fa-regular fa-circle fa-2xs"></i>
-          <div class="red-dot"></div>
-        </div>
-      </a>
-    </div>
+    <form class="input-bar">
+      <i class="fa-solid fa-square-plus fa-2xl"></i>
+      <input type="text" placeholder="내용을 작성해주세요..." />
+      <i class="fa-solid fa-face-smile-wink fa-xl"></i>
+      <button>
+        <i class="fa-solid fa-angle-up fa-2xl"></i>
+      </button>
+    </form>
     <script
       src="https://kit.fontawesome.com/3a4cbadfca.js"
       crossorigin="anonymous"

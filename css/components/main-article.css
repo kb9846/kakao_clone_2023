@@ -3,3 +3,6 @@
   top: 22.6px;
   padding: 0 15px;
 }
+.if-over-space-header {
+  top: 71.8px !important;
+}

@@ -1,0 +1,105 @@
+#chat-background {
+  height: 1000vh;
+  background-color: #abc1d1;
+}
+#chat-background > .state-bar {
+  background-color: inherit;
+}
+.main-chat {
+  position: relative;
+  top: 71.8px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timestamp {
+  background-color: #92a4b2;
+  font-size: 12px;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.message {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.message__img > img {
+  width: 35px;
+  height: 35px;
+  border-radius: 35%;
+  background-color: white;
+  margin-right: 5px;
+}
+.message__user-name {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.message__text {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 5px;
+}
+.message__text > span:first-of-type {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+}
+.message__text > span:last-of-type {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0 5px;
+}
+.message--own {
+  justify-content: flex-end;
+}
+.message__text--own {
+  flex-direction: row-reverse;
+}
+.message__text.message__text--own > span:first-of-type {
+  background-color: var(--yellow);
+  border-top-right-radius: 0;
+  border-top-left-radius: 10px;
+}
+.input-bar > i:first-of-type {
+  color: #b4b6bb;
+}
+.input-bar {
+  width: 100%;
+  padding: 5px 15px;
+  background-color: #f3f3f3;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.input-bar input {
+  width: 90%;
+  height: 40px;
+  border-radius: 30px;
+  border: var(--main-border);
+  background-color: rgba(0, 0, 0, 0.01);
+}
+.input-bar > :where(i:last-of-type, button) {
+  position: absolute;
+}
+.input-bar > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+  top: 6px;
+  right: 20px;
+}
+.input-bar > i:last-of-type {
+  top: 27px;
+  right: 70px;
+  color: #b4b6bb;
+}
