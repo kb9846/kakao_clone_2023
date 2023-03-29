@@ -1,0 +1,7 @@
+:root {
+  --yellow: rgb(250, 225, 0);
+  --black: #2f363e;
+  --soft-gray: rgba(0, 0, 0, 0.4);
+  --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --background-color: #f9f9fa;
+}

@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Oswald:wght@500&display=swap");
+@import "reset.css";
+@import "values.css";
+/* components */
+@import "components/main-article.css";
+@import "components/state-bar.css";
+@import "components/navigation-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/red-btn.css";
+@import "components/row-icons.css";
+@import "components/space-header.css";
+@import "components/mobile-version.css";
+/* screen */
+@import "screens/Index-header.css";
+@import "screens/Index-form.css";
+@import "screens/friends-display.css";
+@import "screens/screen-channel.css";
+@import "screens/find.css";
+@import "screens/special-cases.css";
+@import "screens/suggestions.css";
+@import "screens/list.css";
+@import "screens/splash-screen.css";
+@import "screens/chat.css";
+
+body {
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+}

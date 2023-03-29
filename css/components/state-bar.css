@@ -1,0 +1,43 @@
+.state-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px 0 10px;
+  background-color: var(--background-color);
+  border-bottom: var(--main-border);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.state-bar__column {
+  width: 33.3%;
+}
+
+.state-bar__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.state-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.state-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.state-bar__column:first-child > span {
+  margin-right: 5px;
+}
+
+.state-bar__column:last-child :where(span, i) {
+  margin: 0 2px;
+}

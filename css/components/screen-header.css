@@ -1,0 +1,29 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.screen-header__title > span {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black);
+}
+.screen-header__icons > :where(span, a) {
+  margin-left: 25px;
+  position: relative;
+}
+.screen-header__icons > a > i:hover {
+  animation-name: rotate-gear;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes rotate-gear {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(1080deg);
+  }
+}

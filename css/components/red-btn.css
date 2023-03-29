@@ -1,0 +1,25 @@
+.red-btn {
+  font-size: 12px;
+  color: white;
+  display: block;
+  background-color: tomato;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red-dot {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+.row-icons__icon .red-dot {
+  top: -7px;
+  right: -10px;
+}
